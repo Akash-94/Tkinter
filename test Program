@@ -46,8 +46,8 @@ radio1 = tkinter.Radiobutton(optionFrame, text="File Name", value=1, variable=rb
 radio2 = tkinter.Radiobutton(optionFrame, text="Path", value=2, variable=rbValue)
 radio3 = tkinter.Radiobutton(optionFrame, text="Time Stamp", value=3, variable=rbValue)
 radio1.grid(row=0, column=0, sticky='w')
-radio1.grid(row=1, column=0, sticky='w')
-radio1.grid(row=2, column=0, sticky='w')
+radio2.grid(row=1, column=0, sticky='w')
+radio3.grid(row=2, column=0, sticky='w')
 
 mainWindow.mainloop()
 print(rbValue.get())
